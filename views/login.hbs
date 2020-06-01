@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicia de sesion | inventario</title>
+    <link rel="stylesheet" href="/assets/css/main.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h2>Iniciar sesion</h2>
+            <form class="form">
+                <input id="email" type="email" placeholder="Email" required autofocus>
+                <input id="password" type="password" placeholder="Password" required minlength="6">
+                
+                <div class="checkbox">
+                    <input type="checkbox" name="check">
+                    <label>Recordarme</label>
+                </div>
+                
+                <button type="submit" class="loginBtn">Login</button>
+                
+                <p class="mensaje-error"></p>
+                <p class="mensaje-correcto"></p>
+
+                <div class="lost">
+                    <a href="#">¿No recuerdas tu contraseña?</a>
+                </div>
+            </form>
+    </div>
+<script src="/assets/js/main.js"></script>   
+</body>
+</html>

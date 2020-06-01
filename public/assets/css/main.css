@@ -1,0 +1,116 @@
+html{
+    background: #0A122A;
+    font-family: sans-serif;
+    
+}
+
+.form{
+
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 60px;
+    margin-right: 15%;
+
+}
+
+.container{
+    width: 350px;
+    height: 500px;
+    background-color: #0A0A2A;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+}
+
+.form input[type = text], input[type = email], input[type = password]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 4px;
+}
+
+.form label{
+    color: #ccc;
+}
+
+.container h2{
+    text-align: center;
+    padding-top: 40px;
+    color: #eee;
+}
+
+.loginBtn{
+    margin-top: 40px;
+    padding: 10px 30px;
+    display: block;
+    width: 100%;
+    border: solid 1px #eee;
+    border-radius: 4px;
+    background-color: #4B088A;
+    color: #eee;
+    cursor: pointer;
+}
+
+.loginBtn:hover{
+    opacity: 0.8;
+}
+
+.checkbox{
+    display: inline-block;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+.lost{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.lost a{
+    color: #eee;
+    text-decoration: none;
+}
+
+.lost a:hover{
+    opacity: 0.8;
+}
+
+.error{
+    border-color: red;
+}
+
+.correcto{
+    border-color: green;
+}
+
+.mensaje-error{
+    padding: 5px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #FA5858;
+    color: #B40404;
+    max-width: 100%;
+    border-radius: 4px;
+    border: solid 1px #B40404;
+    display: none;
+}
+
+.mensaje-correcto{
+    padding: 5px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #088A08;
+    color: #0B3B0B;
+    max-width: 100%;
+    border-radius: 4px;
+    border: solid 1px #0B3B0B;
+    display: none;
+}
+
+
