@@ -1,3 +1,4 @@
+const { InLogging } =  require('./middlewares/verificarLogueado')
 const express = require('express');
 const body = require('body-parser');
 const hbs = require('hbs');
@@ -17,6 +18,10 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
     res.render('login');
+})
+
+app.get('/dashboard', (req, res) => {
+    res.render('dashboard');
 })
 
 

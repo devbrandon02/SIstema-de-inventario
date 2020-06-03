@@ -77,13 +77,14 @@ app.post('/api/login', (req, res) => {
             let token = jwt.sign({
                 usuario: usuarioDb
             }, 'Secret-semilla-cow-02', {expiresIn: 60 * 60 * 24 * 30}) 
-
-            return res.status(200).json({
+            
+            res.status(200).json({
                 ok: true,
                 mensaje: 'Inicio de sesion exitoso',
                 usuarioDb,
                 token
             })
+
         }
     })      
 })
